@@ -46,18 +46,6 @@ CREATE TABLE `advocates_details` (
 -- Dumping data for table `advocates_details`
 --
 
-INSERT INTO `advocates_details` (`advocate_id`, `advocate_name`, `date_of_birth`, `qualification`, `address`, `city`, `contact_no`, `email_id`, `experience`, `bar_council_name`, `advocate_type`, `dictionary_id`) VALUES
-(2, 'Mahindra S', '2018-01-15', 'BA MA', 'Sadhankeri\r\nDharwad', 'Dharwad', 1234578901, 'mahindra@gmail.com', '8', 'andhrapardesh', 'investigation', 0),
-(3, 'prema', '2018-01-01', 'ma', 'malmaddi', 'dharwad', 967843567, 'premapoorna@gmail.co', '20', 'karnataka', 'civil', 0),
-(4, 'mallikarjun', '2017-09-05', 'ba', 'nttf', 'dharwad', 2147483647, 'mallu@123', '5', 'maharashtra', 'criminal', 4567),
-(5, 'parth', '2016-11-07', 'mphil', 'vidyanagar', 'hubli', 2147483647, 'parthp@', '7', 'Indian council', 'civil', 100),
-(7, 'ipshita', '2016-08-02', 'MA', 'rajaji nagar', 'mysore', 2147483647, 'ipshita23457@gamil.c', '7', 'karnataka', 'investigator', 0),
-(8, 'vinayak', '2018-03-04', 'bcom', 'Dharwad', 'dharwad', 9743275948, 'vin@gmail.com', 'two year', 'dharwad', 'junior', 0),
-(9, 'pooja', '2018-02-20', 'LLB', 'Gandhi nagar', 'dharwad', 9480323710, 'poo@gmail.com', '6 yrs', 'karnataka', 'criminal', 0),
-(10, 'Vani', '2016-06-02', 'BCOMLLB', '', 'sirsi', 9480915445, 'vani@gmail.com', '3 Yeras', 'karwar', 'Family', 0),
-(11, 'Vani', '2016-06-02', 'BCOMLLB', '', 'sirsi', 9480915445, 'vani@gmail.com', '3 Yeras', 'karwar', 'Family', 0),
-(12, 'Vani', '2016-06-02', 'BCOMLLB', '', 'sirsi', 9480915445, 'vani@gmail.com', '3 Yeras', 'karwar', 'Family', 0),
-(13, 'Chaitra', '2010-02-06', 'llm', 'Karwar', 'Karwar', 9456231585, 'crh@gmail.com', '10 years', 'karwar', 'Criminal', 0);
 
 -- --------------------------------------------------------
 
@@ -76,9 +64,6 @@ CREATE TABLE `articles` (
 -- Dumping data for table `articles`
 --
 
-INSERT INTO `articles` (`article_id`, `article_name`, `short_description`, `complete_description`) VALUES
-(3, 'land remark', 'land measurement', 'land details'),
-(4, 'Ragging', 'student ragging', 'near road of colleag');
 
 -- --------------------------------------------------------
 
@@ -98,8 +83,7 @@ CREATE TABLE `case_reports` (
 -- Dumping data for table `case_reports`
 --
 
-INSERT INTO `case_reports` (`case_report_id`, `report_name`, `report`, `upload_date`, `client_case_id`) VALUES
-(9, 'snatch', 'abcd xyz pqrs', '2017-11-28', 878);
+
 
 -- --------------------------------------------------------
 
@@ -138,16 +122,7 @@ CREATE TABLE `client_case_details` (
 -- Dumping data for table `client_case_details`
 --
 
-INSERT INTO `client_case_details` (`client_case_id`, `client_id`, `advocate_id`, `case_name`, `case_description`, `court_id`, `first_client_party`, `second_client_party`, `date`, `status`) VALUES
-(2, 2, 2, 'chain robbary', 'chain snatch', 2, 'pavitra', 'raju', '2010-10-12', 'investigation'),
-(600, 7, 6, 'robbery', 'bank', 8, 'durga', 'shiva', '2018-01-07', 'active'),
-(878, 8, 8, 'land ', 'land issue', 6, 'lk', 'yk', '2017-12-06', 'successful'),
-(879, 6, 8, 'Crime', 'gghg', 7, 'vinu', 'raju', '2018-03-11', 'active'),
-(880, 0, 8, 'hjjh', 'jhj', 5, 'hghg', 'hghg', '0778-07-08', 'a'),
-(881, 8, 8, 'hh', 'jhjh', 5, 'hjj', 'jh', '5555-06-04', 'a'),
-(882, 2, 4, 'murder', 'due to land  propert', 2, 'aman', 'karan', '2014-01-12', 'active'),
-(883, 10, 9, 'abcd', 'abcd', 6, 'santosh', 'abcd', '2018-03-14', 'Active'),
-(884, 13, 13, 'Commercial', 'Shop related', 7, 'megha', 'nagamma', '2022-07-08', 'Active');
+
 
 -- --------------------------------------------------------
 
