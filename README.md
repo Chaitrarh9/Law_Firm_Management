@@ -46,3 +46,12 @@ To set up the project locally:
 ![IMG-20240822-WA0033](https://github.com/user-attachments/assets/127d5852-1cea-4774-9980-981f40f485e3)
 
 - Note: Screenshots are for illustration purposes. Actual implementation may vary.
+
+## License
+- This project is licensed under the MIT License.
+
+## Contact
+- For any questions or feedback, please contact:
+
+Name: Chaitra Ramachandra Hegde
+Email: crhsonda@gmail.com
