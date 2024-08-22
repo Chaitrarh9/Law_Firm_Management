@@ -53,5 +53,5 @@ To set up the project locally:
 ## Contact
 - For any questions or feedback, please contact:
 
-Name: Chaitra Ramachandra Hegde
-Email: crhsonda@gmail.com
+ - Name: Chaitra Ramachandra Hegde
+ - Email: crhsonda@gmail.com
