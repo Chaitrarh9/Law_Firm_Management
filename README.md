@@ -26,3 +26,16 @@ To set up the project locally:
 
    ```bash
    git clone https://github.com/Chaitrarh9/Law_Firm_Management.git
+   
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd Law_Firm_Management
+   
+3. **Set Up Xampp**
+
+    - Move the project folder to the htdocs directory of your XAMPP installation.
+    - Start Apache and MySQL from the XAMPP control panel.
+5. **Access the Project**
+6. 
+    - Open a web browser and navigate to http://localhost/Law_Firm_Management.
