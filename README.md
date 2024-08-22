@@ -44,3 +44,5 @@ To set up the project locally:
 ![IMG-20240822-WA0034](https://github.com/user-attachments/assets/1beb4bc4-ae19-4132-a807-a025df896f94)
 ![IMG-20240822-WA0036](https://github.com/user-attachments/assets/781cd6c9-c70f-4db7-912e-b963d5d0122c)
 ![IMG-20240822-WA0033](https://github.com/user-attachments/assets/127d5852-1cea-4774-9980-981f40f485e3)
+
+- Note: Screenshots are for illustration purposes. Actual implementation may vary.
