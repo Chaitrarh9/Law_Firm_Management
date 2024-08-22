@@ -170,16 +170,6 @@ CREATE TABLE `client_details` (
 -- Dumping data for table `client_details`
 --
 
-INSERT INTO `client_details` (`client_id`, `client_name`, `client_address`, `city`, `contact_no`, `c_email_id`, `reg_date`, `advocate_id`) VALUES
-(2, 'kalabhairav', 'ghandinagar', 'banglore', 2147483647, 'khalbhairavag@', '2015-04-03', '0'),
-(3, 'durgama', 'sampigenagar', 'dwd', 45634520, 'durgas345@', '2018-01-01', '0'),
-(4, 'ganesh', 'narayanpur', 'belgavi', 2147483647, 'ganeshs@456', '2018-02-20', '0'),
-(5, 'ipshita', 'nttf', 'manglore', 987645363, 'ipshu@123', '2017-12-12', '0'),
-(6, 'parth', 'marikamba road', 'sirsi', 986574987, 'parth@456', '2017-05-30', '0'),
-(8, 'vinayak', 'Dharwad', 'Dharwad', 9743275948, 'vinayaks@gmail.com', '2018-03-11', '8'),
-(10, 'Santosh', 'Dharwad', 'Dharwad', 9886631818, 'san@gmail.com', '2018-03-14', '9'),
-(12, 'poornima', 'prakruti nilaya', 'Dharwad', 232323232378, 'poornima@gmail.com', '2018-04-02', '9'),
-(13, 'Ananth', 'Banglore', 'Banglore', 6958475212, 'ana@gamil.com', '2022-07-28', '13');
 
 -- --------------------------------------------------------
 
@@ -199,15 +189,6 @@ CREATE TABLE `client_document` (
 -- Dumping data for table `client_document`
 --
 
-INSERT INTO `client_document` (`clientdoc_id`, `client_id`, `doc_name`, `upload_doc`, `upload_date`) VALUES
-(1, 8, 'Case Paper', 'IMG_4462.jpeg', '2018-03-12'),
-(2, 0, 'aa', 'IMG_0005.jpg', '2018-03-12'),
-(3, 0, 'aa', 'IMG_4462.jpeg', '2018-03-12'),
-(4, 0, 'ss', 'IMG.jpg', '2018-03-12'),
-(5, 8, 'rule', 'IMG_0003.jpg', '2018-03-12'),
-(6, 10, 'Select Document Name', '', '0000-00-00'),
-(7, 10, 'Select Document Name', '', '0000-00-00'),
-(8, 13, 'Driving Licence', 'College_administration_system - Copy.pdf', '2022-07-27');
 
 -- --------------------------------------------------------
 
@@ -227,10 +208,7 @@ CREATE TABLE `court_details` (
 -- Dumping data for table `court_details`
 --
 
-INSERT INTO `court_details` (`court_id`, `court_name`, `address`, `city`, `contact_no`) VALUES
-(6, 'court complex', 'vinobha nagar', 'davangere', 2147483647),
-(7, 'district court', 'Court Circle', 'Dharwad', 763452001),
-(8, 'family court', 'maniyur', 'chitradurga', 2147483647);
+
 
 -- --------------------------------------------------------
 
@@ -248,9 +226,7 @@ CREATE TABLE `dictionaries` (
 -- Dumping data for table `dictionaries`
 --
 
-INSERT INTO `dictionaries` (`dictionary_id`, `dictionary_word`, `description`) VALUES
-(3, 'crime', 'murder of person'),
-(4, 'robbary', 'snatch of gold...');
+
 
 -- --------------------------------------------------------
 
@@ -288,15 +264,7 @@ CREATE TABLE `login` (
 -- Dumping data for table `login`
 --
 
-INSERT INTO `login` (`username`, `password`, `type`, `hint_question`, `hint_answer`, `status`) VALUES
-('admin', '123', 'admin', 'who i am', 'admin', 'active'),
-('court', '123123', 'court', 'who i am', 'court', 'active'),
-('vin@gmail.com', '9743275948', 'advocate', 'Please Enter Your Co', '9743275948', 'active'),
-('vinayaks@gmail.com', '9743275948', 'client', 'What is Your Contact', '9743275948', 'active'),
-('poo@gmail.com', '123123', 'advocate', 'Please Enter Your Co', '9480323710', 'active'),
-('san@gmail.com', '9886631818', 'client', 'What is Your Contact', '9886631818', 'active'),
-('crh@gmail.com', '9456231585', 'advocate', 'Please Enter Your Co', '9456231585', 'active'),
-('ana@gamil.com', '123123', 'client', 'who i am', 'ana@gamil.com', 'Active');
+
 
 -- --------------------------------------------------------
 
@@ -320,8 +288,7 @@ CREATE TABLE `payment` (
 -- Dumping data for table `payment`
 --
 
-INSERT INTO `payment` (`payment_id`, `client_id`, `amount_paid`, `description`, `paymode`, `bank_name`, `cheque_no`, `payment_date`, `pan_card`) VALUES
-(1, 13, 100, 'abcd', 'Cash', '', 0, '2022-07-13', 'ABD88G');
+
 
 --
 -- Indexes for dumped tables
