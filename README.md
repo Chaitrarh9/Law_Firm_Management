@@ -18,6 +18,9 @@ Law Firm Management is a comprehensive online platform designed to streamline le
 - **PHP**: Server-side scripting and backend functionality.
 - **XAMPP**: Local server environment for development and testing.
 
+# Project overview 
+ If you want explore project overview you can view it in our Home Page - https://lawfi.netlify.app/
+
 ## Installation
 
 To set up the project locally:
